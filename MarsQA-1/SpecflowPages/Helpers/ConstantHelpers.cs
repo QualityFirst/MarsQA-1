@@ -12,7 +12,8 @@ namespace MarsQA_1.Helpers
         public static string Url = "http://localhost:5000";
 
         //ScreenshotPath
-        public static string ScreenshotPath = "";
+       // neelam
+       public static string ScreenshotPath = @"TestReports\Screenshots\Test";
 
         //ExtentReportsPath
         public static string ReportsPath = "";
