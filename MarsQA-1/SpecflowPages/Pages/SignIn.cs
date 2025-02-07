@@ -13,7 +13,7 @@ namespace MarsQA_1.Pages
         public static void SigninStep()
         {
             Driver.NavigateUrl();
-            SignInBtn.Click();
+            SignInBtn.Click();            
             Email.SendKeys(ExcelLibHelper.ReadData(2,"username"));
             Password.SendKeys(ExcelLibHelper.ReadData(2, "password"));
             LoginBtn.Click();
