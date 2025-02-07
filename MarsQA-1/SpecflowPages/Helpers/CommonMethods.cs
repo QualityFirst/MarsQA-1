@@ -34,7 +34,9 @@ namespace MarsQA_1.Helpers
                 fileName.Append(DateTime.Now.ToString("_dd-mm-yyyy_mss"));
                 //fileName.Append(DateTime.Now.ToString("dd-mm-yyyym_ss"));
                 fileName.Append(".jpeg");
-                screenShot.SaveAsFile(fileName.ToString(), ScreenshotImageFormat.Jpeg);
+               //neelam
+              // screenShot.SaveAsFile(fileName.ToString());
+               // screenShot.SaveAsFile()
                 return fileName.ToString();
             }
         }
